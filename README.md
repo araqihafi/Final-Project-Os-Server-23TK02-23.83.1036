@@ -154,6 +154,7 @@ sudo nano /etc/samba/smb.conf
 ```
 **Langkah 8:** :Buka file eksplorer pada windows,dan pilih bagian “This PC” kemudian ketikkan pada taskbar atas ip add ubuntu server (192.168.1.13) lalu masukkan username dan passwd yang sudah di buat tadi
 ![Screenshot 2024-12-01 172413](https://github.com/user-attachments/assets/ea391525-2d32-4b04-a388-3b18c8b5b353)
+![image](https://github.com/user-attachments/assets/1d762029-883c-4dd0-9b8e-27dfdb4fdb0f)
 
 
 
