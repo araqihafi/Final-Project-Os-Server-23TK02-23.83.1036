@@ -3,13 +3,14 @@
 **NIM:** 23.83.1036  
 **Kelas:** 23TK02  
 **Mata Kuliah:** OS SERVER dan SISTEM ADMIN 
+Progres 1 : Minggu 1 Des 2024 Penentuan judul website Coffe Shop
 
 ## Daftar Isi
 1. [Instalasi OPEN SSH SERVER](#1-instalasi-open-ssh-server)
 2. [Instalasi MYSQL SERVER](#2-instalasi-mysql-server)
 3. [Instalasi APACHE2](#3-instalasi-apache2)
 4. [Instalasi DATABASE SERVER](#4-instalasi-database-server)
-5. [Instalasi SAMBA](#5-instalasi-samba)
+
 
 ## 1.Instalasi OPEN SSH SERVER
 **Langkah 1:** Lakukan Instalasi Paket SSH Server
@@ -117,44 +118,4 @@ ip a
 ```
 **Langkah 5:** CEK KONFIGURASI Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.13/phpmyadmin/
 ![Screenshot 2024-12-01 171808](https://github.com/user-attachments/assets/6e3ae4ed-e01b-480e-8393-77a8f9e8b7cd)
-
-## 5.Installasi SAMBA
-**Langkah 1:** Memperbarui daftar paket dengan perintah
-```bash
-sudo apt update
-sudo apt upgrade-y
-```
-**Langkah 2:** Installasi apache 2 dengan perintah
-```bash
-sudo mkdir /sambashare
-```
-**Langkah 3:** Membuat direktori baru bernama ‘sambashare” dengan perintah
-```bash
-sudo chmod 0777  /sambashare
-```
-**Langkah 4:** Menambah pengguna baru bernama
-```bash
-sudo useradd user1
-```
-![Screenshot 2024-12-01 164855](https://github.com/user-attachments/assets/87337565-2062-4fb6-bf3a-cf589cb89a15)
-![Screenshot 2024-12-01 205304](https://github.com/user-attachments/assets/55efab8b-f6a7-407c-bd2e-f7b4d892cb3f)
-
-**Langkah 5:** Mengedit file konfigurasi utama dengan perintah
-```bash
-sudo nano /etc/samba/smb.conf
-```
-**Langkah 6:** Memulai ulang layanan samba dengan perintah
-```bash
- sudo systemctl restart smbd
- sudo systemctl restart nmbd
-```
-**Langkah 7:** Buka pada browser google chrome pada windows dan ketikkan ip addres tadi “192.168.1.13
-```bash
- sudo systemctl status smbd
-```
-**Langkah 8:** :Buka file eksplorer pada windows,dan pilih bagian “This PC” kemudian ketikkan pada taskbar atas ip add ubuntu server (192.168.1.13) lalu masukkan username dan passwd yang sudah di buat tadi
-![Screenshot 2024-12-01 172413](https://github.com/user-attachments/assets/ea391525-2d32-4b04-a388-3b18c8b5b353)
-![image](https://github.com/user-attachments/assets/1d762029-883c-4dd0-9b8e-27dfdb4fdb0f)
-
-
 
