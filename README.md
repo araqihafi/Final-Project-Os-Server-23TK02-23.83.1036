@@ -130,7 +130,7 @@ sudo systemctl enable fail2ban
 ```
 **Langkah 3:** jalankan
 ```bash
-sudo systemctl enable fail2ban
+sudo systemctl start fail2ban
 ```
 **Langkah 4:** check status
 ```bash
