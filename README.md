@@ -10,6 +10,7 @@ Progres 1 : Minggu 1 Des 2024 Penentuan judul website Coffe Shop
 2. [Instalasi MYSQL SERVER](#2-instalasi-mysql-server)
 3. [Instalasi APACHE2](#3-instalasi-apache2)
 4. [Instalasi DATABASE SERVER](#4-instalasi-database-server)
+5. [Instalasi FAIL2BAN](#5-instalasi-fail2ban)
 
 
 ## 1.Instalasi OPEN SSH SERVER
