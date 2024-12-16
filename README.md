@@ -119,3 +119,23 @@ ip a
 **Langkah 5:** CEK KONFIGURASI Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.13/phpmyadmin/
 ![Screenshot 2024-12-01 171808](https://github.com/user-attachments/assets/6e3ae4ed-e01b-480e-8393-77a8f9e8b7cd)
 
+## 5.Installasi fail2bn
+**Langkah 1:** Instalasi fail2ban
+```bash
+sudo apt install fail2ban -y
+```
+**Langkah 2:** nyalakan 
+```bash
+sudo systemctl enable fail2ban
+```
+**Langkah 3:** jalankan
+```bash
+sudo systemctl enable fail2ban
+```
+**Langkah 4:** check status
+```bash
+sudo systecmtl status fail2ban
+```
+![Screenshot 2024-12-15 205603](https://github.com/user-attachments/assets/b034640c-b2fe-45f3-a5aa-adf3cd050a50)
+
+
