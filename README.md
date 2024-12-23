@@ -11,6 +11,7 @@ Progres 1 : Minggu 1 Des 2024 Penentuan judul website Coffe Shop
 3. [Instalasi APACHE2](#3-instalasi-apache2)
 4. [Instalasi DATABASE SERVER](#4-instalasi-database-server)
 5. [Instalasi FAIL2BAN](#5-instalasi-fail2ban)
+6. [Instalasi GRAFANA](#5-instalasi-grafana)
 
 
 ## 1.Instalasi OPEN SSH SERVER
@@ -138,6 +139,35 @@ sudo systemctl start fail2ban
 sudo systecmtl status fail2ban
 ```
 ![Screenshot 2024-12-15 205603](https://github.com/user-attachments/assets/b034640c-b2fe-45f3-a5aa-adf3cd050a50)
+
+## 6.Installasi grafana
+**Langkah 1:** Instalasi grafana
+```bash
+sudo apt install -y apt-transport-https software-properties-common
+```
+**Langkah 2:** Add Grafana APT Repository
+```bash
+sudo apt-get install -y software-properties-common
+sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+```
+**Langkah 3:** add the Grafana GPG key:
+```bash
+sudo apt-get install -y gnupg2
+curl https://packages.grafana.com/gpg.key | sudo apt-key add -
+```
+**Langkah 4:** Start the Grafana service
+```bash
+sudo systemctl start grafana-server
+```
+**Langkah 5:** Enable Grafana to start on boot
+```bash
+sudo systemctl enable grafana-server
+```
+**Langkah 4:** Access Grafana
+```bash
+http://localhost:3000
+```
+![Screenshot 2024-12-23 114143](https://github.com/user-attachments/assets/4baa3f28-2ac2-45ac-8a72-c96584264f3e)
 
 PUBLIKASI WEBSITE
 https://coldbrewcoffeshop.netlify.app/
